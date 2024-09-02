@@ -1,0 +1,49 @@
+# Sistema de Gerenciamento de Biblioteca
+
+## Objetivo
+
+Este projeto visa desenvolver um sistema de gerenciamento para uma biblioteca utilizando um banco de dados relacional. O sistema abrange a criação e manipulação de informações sobre autores, livros e empréstimos.
+
+## Estrutura do Projeto
+
+1. **Banco de Dados:**
+   - O banco de dados é chamado `Biblioteca`.
+
+2. **Tabelas:**
+   - `Autores`: Armazena informações sobre os autores.
+   - `Livros`: Armazena informações sobre os livros e relaciona-se com os autores.
+   - `Emprestimos`: Registra os empréstimos de livros e relaciona-se com os livros.
+
+3. **Scripts SQL:**
+   - `01_criacao_banco.sql`: Cria o banco de dados e as tabelas.
+   - `02_insercao_dados.sql`: Insere dados nas tabelas.
+   - `03_consultas.sql`: Realiza consultas para listar livros e empréstimos em aberto.
+   - `04_atualizacao.sql`: Atualiza registros de empréstimos.
+   - `05_exclusao.sql`: Remove livros e registros de empréstimos associados.
+
+## Instruções
+
+1. **Configuração do Ambiente:**
+   - Utilize um servidor de banco de dados MySQL ou MariaDB.
+
+2. **Execução dos Scripts:**
+   - Execute os scripts SQL na ordem indicada para criar o banco de dados, inserir dados, realizar consultas, atualizar e excluir registros.
+
+3. **Consultas e Atualizações:**
+   - Verifique os resultados das consultas e faça as atualizações conforme necessário.
+
+## Arquivos Incluídos
+
+- `create_database.sql`: Script para criação do banco de dados e tabelas.
+- `insert_data.sql`: Script para inserção de dados.
+- `queries.sql`: Script para consultas.
+- `update_data.sql`: Script para atualizações de dados.
+- `delete_data.sql`: Script para exclusão de dados.
+
+## Contribuição
+
+Para contribuir com o projeto, faça um fork do repositório, faça suas alterações e envie um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).

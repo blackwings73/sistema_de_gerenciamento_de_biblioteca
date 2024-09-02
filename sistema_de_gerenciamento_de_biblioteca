@@ -1,0 +1,33 @@
+Objetivo:
+
+Desenvolver um sistema de gerenciamento de biblioteca utilizando um banco de dados relacional. O sistema deve permitir a gestão de informações sobre autores, livros e empréstimos de forma eficiente.
+
+Tarefas:
+
+Criação do Banco de Dados:
+
+Crie um banco de dados chamado Biblioteca.
+Criação das Tabelas:
+
+Crie uma tabela Autores para armazenar informações sobre os autores.
+Crie uma tabela Livros para armazenar informações sobre os livros, incluindo um relacionamento com a tabela Autores.
+Crie uma tabela Emprestimos para registrar os empréstimos de livros, com um relacionamento com a tabela Livros.
+Inserção de Dados:
+
+Insira dados na tabela Autores.
+Insira dados na tabela Livros, garantindo que cada livro esteja associado a um autor.
+Insira dados na tabela Emprestimos para registrar empréstimos de livros.
+Consultas de Dados:
+
+Liste todos os livros com os nomes de seus autores.
+Liste os empréstimos que ainda estão em aberto.
+Atualização de Dados:
+
+Atualize a data de devolução de um empréstimo específico.
+Exclusão de Dados:
+
+Remova um livro e todos os registros de empréstimos associados a ele.
+Requisitos:
+
+Utilizar SQL para a criação, manipulação e consulta de dados.
+Garantir integridade referencial entre tabelas.
